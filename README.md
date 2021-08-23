@@ -89,10 +89,10 @@
 git clone git@github.com:<USERNAME>/xxxxx
 ```
 
-Добавьте `xxxxx`:
+Добавьте `upstream`:
 
 ```sh
-git remote add xxxxx git@github.com:fir3dev/xxxxx
+git remote add upstream git@github.com:fir3dev/xxxxx
 ```
 
 Если вам нужен чей-то пулл реквест - добавьте его <USERNAME> как новый remote.
@@ -107,7 +107,7 @@ git remote add xxxxx git@github.com:fir3dev/xxxxx
 
 ```sh
 git fetch --all
-git checkout xxxxx/master
+git checkout upstream/master
 ```
 
 ## Именование веток
